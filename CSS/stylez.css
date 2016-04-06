@@ -1,0 +1,105 @@
+/*----- General Styles -----*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 100px;
+  font-family: 'Roboto Condensed', sans-serif;
+  size: 1.2em;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/*----- #main-header and children -----*/
+
+#main-header {
+  background: #9932ff;
+  max-height: 200px;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 2px 2px rgba(0,0,0,.8);
+  z-index: 1000;
+}
+
+#main-header h1 {
+  font-weight: 500;
+  margin-right: auto;
+  padding: 10px 20px;
+}
+
+#main-header a {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+nav li {
+  margin: 5px 15px;
+  padding: 5px;
+  flex-grow: 1;
+}
+
+/*----- Articles and children -----*/
+
+article {
+  margin: 20px;
+  padding: 20px;
+  background: #44ae7f;
+  border-radius: 10px;
+}
+
+article h2 {
+  text-align: center;
+}
+
+article img {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+article footer {
+  border: 2px solid #f2f2f2;
+  border-radius: 2px;
+  background: #9932ff;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/*----- #main-footer -----*/
+
+#main-footer {
+  border-top: 1px solid #000;
+  text-align: center;
+}
+
+#main-footer p {
+  margin: 10px;
+}
+
+
+
+
+
